@@ -1,0 +1,13 @@
+C:\Users\kanan\Desktop\RepositorioGIT\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\bin\Debug\net8.0\LivrariaControleEmprestimo.DATA.deps.json
+C:\Users\kanan\Desktop\RepositorioGIT\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\bin\Debug\net8.0\LivrariaControleEmprestimo.DATA.dll
+C:\Users\kanan\Desktop\RepositorioGIT\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\bin\Debug\net8.0\LivrariaControleEmprestimo.DATA.pdb
+C:\Users\kanan\Desktop\RepositorioGIT\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.csproj.AssemblyReference.cache
+C:\Users\kanan\Desktop\RepositorioGIT\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kanan\Desktop\RepositorioGIT\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.AssemblyInfoInputs.cache
+C:\Users\kanan\Desktop\RepositorioGIT\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.AssemblyInfo.cs
+C:\Users\kanan\Desktop\RepositorioGIT\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.csproj.CoreCompileInputs.cache
+C:\Users\kanan\Desktop\RepositorioGIT\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.sourcelink.json
+C:\Users\kanan\Desktop\RepositorioGIT\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.dll
+C:\Users\kanan\Desktop\RepositorioGIT\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\refint\LivrariaControleEmprestimo.DATA.dll
+C:\Users\kanan\Desktop\RepositorioGIT\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.pdb
+C:\Users\kanan\Desktop\RepositorioGIT\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\ref\LivrariaControleEmprestimo.DATA.dll
