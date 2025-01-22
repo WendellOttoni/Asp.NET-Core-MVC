@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ha1pvufx/BQ=",
+  "dgSpecHash": "3FqUklYhkCc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kanan\\Desktop\\CigoWebAplication\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.DATA\\LivrariaControleEmprestimo.DATA.csproj",
+  "projectFilePath": "C:\\Users\\kanan\\Desktop\\RepositorioGIT\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.DATA\\LivrariaControleEmprestimo.DATA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kanan\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\kanan\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
