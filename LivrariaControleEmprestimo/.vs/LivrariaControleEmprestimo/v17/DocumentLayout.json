@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\kanan\\Desktop\\RepositorioGIT\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5FBADCEC-714F-44B7-838C-DFC7CF3DCE37}|LivrariaControleEmprestimo.WEB\\LivrariaControleEmprestimo.WEB.csproj|c:\\users\\kanan\\desktop\\repositoriogit\\asp.net-core-mvc\\livrariacontroleemprestimo\\livrariacontroleemprestimo.web\\views\\cliente\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FBADCEC-714F-44B7-838C-DFC7CF3DCE37}|LivrariaControleEmprestimo.WEB\\LivrariaControleEmprestimo.WEB.csproj|solutionrelative:livrariacontroleemprestimo.web\\views\\cliente\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5FBADCEC-714F-44B7-838C-DFC7CF3DCE37}|LivrariaControleEmprestimo.WEB\\LivrariaControleEmprestimo.WEB.csproj|c:\\users\\kanan\\desktop\\repositoriogit\\asp.net-core-mvc\\livrariacontroleemprestimo\\livrariacontroleemprestimo.web\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FBADCEC-714F-44B7-838C-DFC7CF3DCE37}|LivrariaControleEmprestimo.WEB\\LivrariaControleEmprestimo.WEB.csproj|solutionrelative:livrariacontroleemprestimo.web\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\kanan\\Desktop\\RepositorioGIT\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.WEB\\Views\\Cliente\\Create.cshtml",
+              "RelativeDocumentMoniker": "LivrariaControleEmprestimo.WEB\\Views\\Cliente\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kanan\\Desktop\\RepositorioGIT\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.WEB\\Views\\Cliente\\Create.cshtml",
+              "RelativeToolTip": "LivrariaControleEmprestimo.WEB\\Views\\Cliente\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T20:57:08.059Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -38,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\kanan\\Desktop\\RepositorioGIT\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.WEB\\Views\\Cliente\\Edit.cshtml",
               "RelativeDocumentMoniker": "LivrariaControleEmprestimo.WEB\\Views\\Cliente\\Edit.cshtml",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ClienteController.cs",
               "DocumentMoniker": "C:\\Users\\kanan\\Desktop\\RepositorioGIT\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.WEB\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "LivrariaControleEmprestimo.WEB\\Controllers\\ClienteController.cs",
