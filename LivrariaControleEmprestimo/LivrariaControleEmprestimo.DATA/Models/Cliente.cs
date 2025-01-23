@@ -2,6 +2,7 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
@@ -19,12 +20,14 @@ public partial class Cliente
     [Column("nome")]
     [StringLength(50)]
     [Unicode(false)]
+    [DisplayName("Nome")]
     public string Nome { get; set; }
 
     [Required]
     [Column("cpf")]
     [StringLength(14)]
     [Unicode(false)]
+    [DisplayName("CPF")] 
     public string Cpf { get; set; }
 
     [InverseProperty("IdClienteNavigation")]

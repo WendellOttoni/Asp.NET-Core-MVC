@@ -9,7 +9,7 @@
 <p>
     <a class="btn btn-primary" asp-action="Create">Novo</a>
 </p>
-<table class="table">
+<table id="myTable" class="table">
     <thead>
         <tr>
             <th>
@@ -30,12 +30,49 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Cpf)
             </td>
-            <td class="row col-md d-inline-block">
-                <a asp-action="Edit" class="btn btn-success m-1" asp-route-id="@item.Id">Editar</a> 
-                <a asp-action="Details" class="btn btn-primary m-1" asp-route-id="@item.Id">Detalhes</a> 
-                <a asp-action="Delete" class="btn btn-danger m-1" asp-route-id="@item.Id">Deletar</a>
-            </td>
+                <td class="row col-md" style="display: flex; justify-content: space-between; padding: 0;">
+                    <a asp-action="Edit" class="btn btn-success m-1" asp-route-id="@item.Id" style="flex: 1; margin-right: 5px;">Editar</a>
+                    <a asp-action="Details" class="btn btn-primary m-1" asp-route-id="@item.Id" style="flex: 1; margin-right: 5px;">Detalhes</a>
+                    <!-- <a asp-action="Delete" class="btn btn-danger m-1" asp-route-id="@item.Id" style="flex: 1;">Deletar</a> -->
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-danger m-1" data-bs-toggle="modal" data-bs-target="#DeleteModal-@item.Id">
+                        Deletar
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="DeleteModal-@item.Id" tabindex="-1" aria-labelledby="DeleteModal" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="DeleteModal">Deletar Cliente</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Deseja deletar o cliente @item.Nome ?
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não</button>
+                                    <a asp-action="Delete" class="btn btn-danger m-1" asp-route-id="@item.Id" style="flex: 1;">Sim</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </td>
         </tr>
 }
     </tbody>
 </table>
+
+@section Scripts {
+	<script>
+			$(document).ready(function() {
+				$('#myTable').DataTable();
+                Language:{
+				url: "//cdn.datatables.net/plug-ins/1.10.25/i18n/Portuguese-Brasil.json"
+                }
+			});
+	</script>
+}
