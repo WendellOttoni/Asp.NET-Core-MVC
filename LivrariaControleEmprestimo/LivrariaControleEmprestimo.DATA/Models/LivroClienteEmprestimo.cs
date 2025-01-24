@@ -2,6 +2,7 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
@@ -16,9 +17,11 @@ public partial class LivroClienteEmprestimo
     public int Id { get; set; }
 
     [Column("dataEmprestimo", TypeName = "datetime")]
+    [DisplayName("Data Emprestimo")]
     public DateTime DataEmprestimo { get; set; }
 
     [Column("dataDevolucao", TypeName = "datetime")]
+    [DisplayName("Data Devolução")]
     public DateTime DataDevolucao { get; set; }
 
     [Column("idLivro")]
@@ -29,9 +32,11 @@ public partial class LivroClienteEmprestimo
 
     [ForeignKey("IdCliente")]
     [InverseProperty("LivroClienteEmprestimos")]
+    [DisplayName("Livro")]
     public virtual Cliente IdClienteNavigation { get; set; }
 
     [ForeignKey("IdLivro")]
     [InverseProperty("LivroClienteEmprestimos")]
+    [DisplayName("Cliente")]
     public virtual Livro IdLivroNavigation { get; set; }
-}
+}                                                    

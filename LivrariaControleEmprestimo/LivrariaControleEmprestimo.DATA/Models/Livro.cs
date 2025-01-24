@@ -2,6 +2,7 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
@@ -19,12 +20,14 @@ public partial class Livro
     [Column("nome")]
     [StringLength(50)]
     [Unicode(false)]
+    [DisplayName("Nome")]
     public string Nome { get; set; }
 
     [Required]
     [Column("autor")]
     [StringLength(50)]
     [Unicode(false)]
+    [DisplayName("Autor")]
     public string Autor { get; set; }
 
     [InverseProperty("IdLivroNavigation")]

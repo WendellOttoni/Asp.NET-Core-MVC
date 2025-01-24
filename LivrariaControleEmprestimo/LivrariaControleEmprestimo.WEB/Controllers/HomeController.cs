@@ -25,7 +25,7 @@ namespace LivrariaControleEmprestimo.WEB.Controllers
 
         public IActionResult Cliente()
         {
-            return Redirect("/Cliente");
+            return Redirect("/Cliente/Index");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

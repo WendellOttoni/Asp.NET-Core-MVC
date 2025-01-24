@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repositorio Site Asp.NET\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.DATA\\LivrariaControleEmprestimo.DATA.csproj": {}
+    "C:\\Users\\kanan\\Desktop\\RepositorioGIT\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.DATA\\LivrariaControleEmprestimo.DATA.csproj": {}
   },
   "projects": {
-    "D:\\Repositorio Site Asp.NET\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.DATA\\LivrariaControleEmprestimo.DATA.csproj": {
+    "C:\\Users\\kanan\\Desktop\\RepositorioGIT\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.DATA\\LivrariaControleEmprestimo.DATA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repositorio Site Asp.NET\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.DATA\\LivrariaControleEmprestimo.DATA.csproj",
+        "projectUniqueName": "C:\\Users\\kanan\\Desktop\\RepositorioGIT\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.DATA\\LivrariaControleEmprestimo.DATA.csproj",
         "projectName": "LivrariaControleEmprestimo.DATA",
-        "projectPath": "D:\\Repositorio Site Asp.NET\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.DATA\\LivrariaControleEmprestimo.DATA.csproj",
-        "packagesPath": "C:\\Users\\Birul\\.nuget\\packages\\",
-        "outputPath": "D:\\Repositorio Site Asp.NET\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.DATA\\obj\\",
+        "projectPath": "C:\\Users\\kanan\\Desktop\\RepositorioGIT\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.DATA\\LivrariaControleEmprestimo.DATA.csproj",
+        "packagesPath": "C:\\Users\\kanan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kanan\\Desktop\\RepositorioGIT\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.DATA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Birul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kanan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

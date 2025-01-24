@@ -37,7 +37,7 @@
                             <label asp-for="Cpf" class="form-label">
                                 <i class="fas fa-id-card me-2"></i>CPF
                             </label>
-                            <input asp-for="Cpf" class="form-control" placeholder="Digite o CPF" />
+                            <input asp-for="Cpf" class="form-control" placeholder="Digite o CPF" id="Cpf" />
                             <span asp-validation-for="Cpf" class="text-danger"></span>
                         </div>
                     </div>
@@ -55,6 +55,7 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>   
     <script>
         $(document).ready(function() {
             // Máscara para o CPF
