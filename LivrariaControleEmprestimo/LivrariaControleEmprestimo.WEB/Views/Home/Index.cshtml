@@ -1,8 +1,64 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Biblioteca Online";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="hero-section text-center py-5">
+    <h1 class="display-4 mb-4">Bem-vindo à nossa Livraria</h1>
+    <p class="lead">Descubra um mundo de histórias e conhecimento</p>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-users fa-3x mb-3 text-primary"></i>
+                    <h3 class="card-title">Clientes</h3>
+                    <p class="card-text">Gerencie seus clientes e mantenha um relacionamento próximo com seus leitores.</p>
+                    <a href="/Cliente" class="btn btn-primary">Acessar Clientes</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-book fa-3x mb-3 text-success"></i>
+                    <h3 class="card-title">Livros</h3>
+                    <p class="card-text">Cadastre e gerencie todo o acervo de livros disponíveis na biblioteca.</p>
+                    <a href="/Livro" class="btn btn-success">Acessar Livros</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-exchange-alt fa-3x mb-3 text-info"></i>
+                    <h3 class="card-title">Empréstimos</h3>
+                    <p class="card-text">Controle todos os empréstimos e devoluções de livros de forma eficiente.</p>
+                    <a href="/Emprestimo" class="btn btn-info">Acessar Empréstimos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="features-section bg-light py-5 mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Nossa Biblioteca</h2>
+                <p>Oferecemos uma ampla seleção de livros para todos os gostos e idades. Nossa missão é promover a leitura e o conhecimento para toda a comunidade.</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Horário de Funcionamento</h2>
+                <ul class="list-unstyled">
+                    <li><strong>Segunda a Sexta:</strong> 08:00 - 18:00</li>
+                    <li><strong>Sábado:</strong> 09:00 - 13:00</li>
+                    <li><strong>Domingo:</strong> Fechado</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>

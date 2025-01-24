@@ -5051,23 +5051,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kanan\\.nuget\\packages\\": {},
+    "C:\\Users\\Birul\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kanan\\Desktop\\RepositorioGIT\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.DATA\\LivrariaControleEmprestimo.DATA.csproj",
+      "projectUniqueName": "D:\\Repositorio Site Asp.NET\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.DATA\\LivrariaControleEmprestimo.DATA.csproj",
       "projectName": "LivrariaControleEmprestimo.DATA",
-      "projectPath": "C:\\Users\\kanan\\Desktop\\RepositorioGIT\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.DATA\\LivrariaControleEmprestimo.DATA.csproj",
-      "packagesPath": "C:\\Users\\kanan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kanan\\Desktop\\RepositorioGIT\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.DATA\\obj\\",
+      "projectPath": "D:\\Repositorio Site Asp.NET\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.DATA\\LivrariaControleEmprestimo.DATA.csproj",
+      "packagesPath": "C:\\Users\\Birul\\.nuget\\packages\\",
+      "outputPath": "D:\\Repositorio Site Asp.NET\\Asp.NET-Core-MVC\\LivrariaControleEmprestimo\\LivrariaControleEmprestimo.DATA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\kanan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Birul\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

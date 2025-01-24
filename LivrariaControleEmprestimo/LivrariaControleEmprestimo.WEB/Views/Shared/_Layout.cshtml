@@ -4,46 +4,109 @@
     @{
         @await Html.PartialAsync("_head")
     }
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">LivrariaControleEmprestimo.WEB</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Cliente">Cliente</a>
-                        </li>
-                    </ul>
-                </div>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav id="sidebar" class="sidebar">
+            <div class="sidebar-header">
+                <h3 class="logo-full">Livraria</h3>
+                <h3 class="logo-mini"><i class="fas fa-book"></i></h3>
             </div>
+
+            <ul class="list-unstyled components">
+                <li>
+                    <a asp-controller="Home" asp-action="Index" class="nav-link">
+                        <i class="fas fa-home"></i>
+                        <span class="menu-text">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Cliente" asp-action="Index" class="nav-link">
+                        <i class="fas fa-users"></i>
+                        <span class="menu-text">Clientes</span>
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Livro" asp-action="Index" class="nav-link">
+                        <i class="fas fa-book"></i>
+                        <span class="menu-text">Livros</span>
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Emprestimo" asp-action="Index" class="nav-link">
+                        <i class="fas fa-exchange-alt"></i>
+                        <span class="menu-text">Empréstimos</span>
+                    </a>
+                </li>
+            </ul>
         </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+
+        <!-- Page Content -->
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button type="button" id="sidebarCollapse" class="btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    
+                    <div class="d-flex align-items-center">
+                        <div class="dropdown">
+                            <button class="btn btn-link dropdown-toggle" type="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-user-circle fa-lg"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                                <li><a class="dropdown-item" href="#">Configurações</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Sair</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <main role="main" class="content-wrapper">
+                @RenderBody()
+            </main>
+        </div>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - LivrariaControleEmprestimo.WEB - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="footer">
+        <div class="container-fluid">
+            <span>&copy; @DateTime.Now.Year - Sistema de Controle de Livraria</span>
         </div>
     </footer>
+
     @{
         @await Html.PartialAsync("_script")
         @await RenderSectionAsync("Scripts", required: false)
     }
+    
+    <script>
+        $(document).ready(function () {
+            // Recupera o estado do menu do localStorage
+            const menuState = localStorage.getItem('sidebarState');
+            if (menuState === 'mini') {
+                $('#sidebar').addClass('mini-sidebar');
+            }
+
+            // Manipula o clique no botão do menu
+            $('#sidebarCollapse').on('click', function (e) {
+                e.stopPropagation(); // Previne a propagação do evento
+                $('#sidebar').toggleClass('mini-sidebar');
+                
+                // Salva o estado do menu
+                const isMini = $('#sidebar').hasClass('mini-sidebar');
+                localStorage.setItem('sidebarState', isMini ? 'mini' : 'full');
+            });
+
+            // Previne que cliques dentro do sidebar propaguem
+            $('#sidebar').on('click', function (e) {
+                e.stopPropagation();
+            });
+        });
+    </script>
 </body>
 </html>

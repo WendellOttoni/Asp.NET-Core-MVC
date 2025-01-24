@@ -13,3 +13,18 @@ C:\Users\kanan\Desktop\RepositorioGIT\Asp.NET-Core-MVC\LivrariaControleEmprestim
 C:\Users\kanan\Desktop\RepositorioGIT\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\ref\LivrariaControleEmprestimo.DATA.dll
 C:\Users\kanan\Desktop\RepositorioGIT\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\bin\Debug\net8.0\LivrariaControleEmprestimo.DATA.runtimeconfig.json
 C:\Users\kanan\Desktop\RepositorioGIT\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.genruntimeconfig.cache
+D:\Repositorio Site Asp.NET\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\bin\Debug\net8.0\LivrariaControleEmprestimo.DATA.deps.json
+D:\Repositorio Site Asp.NET\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\bin\Debug\net8.0\LivrariaControleEmprestimo.DATA.runtimeconfig.json
+D:\Repositorio Site Asp.NET\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\bin\Debug\net8.0\LivrariaControleEmprestimo.DATA.dll
+D:\Repositorio Site Asp.NET\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\bin\Debug\net8.0\LivrariaControleEmprestimo.DATA.pdb
+D:\Repositorio Site Asp.NET\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.csproj.AssemblyReference.cache
+D:\Repositorio Site Asp.NET\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositorio Site Asp.NET\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.AssemblyInfoInputs.cache
+D:\Repositorio Site Asp.NET\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.AssemblyInfo.cs
+D:\Repositorio Site Asp.NET\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.csproj.CoreCompileInputs.cache
+D:\Repositorio Site Asp.NET\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.sourcelink.json
+D:\Repositorio Site Asp.NET\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.dll
+D:\Repositorio Site Asp.NET\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\refint\LivrariaControleEmprestimo.DATA.dll
+D:\Repositorio Site Asp.NET\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.pdb
+D:\Repositorio Site Asp.NET\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\LivrariaControleEmprestimo.DATA.genruntimeconfig.cache
+D:\Repositorio Site Asp.NET\Asp.NET-Core-MVC\LivrariaControleEmprestimo\LivrariaControleEmprestimo.DATA\obj\Debug\net8.0\ref\LivrariaControleEmprestimo.DATA.dll
